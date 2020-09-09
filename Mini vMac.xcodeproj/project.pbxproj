@@ -920,7 +920,8 @@
 					};
 					28F676BC1CD15E0B00FC6FA6 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = UZ8SGZNS89;
+						DevelopmentTeam = 8JZ6LKRNJ7;
+						ProvisioningStyle = Automatic;
 					};
 					28F6B48D1CF07DDD002D76D0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1628,17 +1629,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UZ8SGZNS89;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JZ6LKRNJ7;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = "Mini vMac/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "-DUSE_LIBRES";
-				PRODUCT_BUNDLE_IDENTIFIER = net.ngland.namedfork.minivmac;
+				PRODUCT_BUNDLE_IDENTIFIER = net.ngland.colinkng.namedfork.minivmac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1646,17 +1649,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UZ8SGZNS89;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JZ6LKRNJ7;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = "Mini vMac/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "-DUSE_LIBRES";
-				PRODUCT_BUNDLE_IDENTIFIER = net.ngland.namedfork.minivmac;
+				PRODUCT_BUNDLE_IDENTIFIER = net.ngland.colinkng.namedfork.minivmac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
